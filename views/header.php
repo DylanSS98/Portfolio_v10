@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="views/assets/scss/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1728px)" href="views/assets/mediaq.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1728px)" href="views/assets/scss/mediaq.css" />
 
     <!-- lien vers le code js -->
 
@@ -34,14 +34,14 @@
 
     <body>
 
-    <div class="loader_container">
+    <!--<div class="loader_container">
         <div class="loader">
 
         </div>
 
 
         <h3>Bienvenue ...</h3>
-    </div>
+    </div>-->
 
     <div>
         <!-- Menu de navigation -->

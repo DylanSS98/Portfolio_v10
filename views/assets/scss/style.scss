@@ -1,7 +1,7 @@
 /* Css burger */
 /* Css carousel */
 /* Css loader */
-@keyframes "loader" {
+@keyframes loader {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
@@ -33,6 +33,7 @@ hr {
   padding: 30px;
   color: #0B1117;
   text-shadow: 0 0 10px #FFFFFF;
+  margin-bottom: 700px;
 }
 .pp_titre {
   margin-bottom: 10px;
@@ -41,6 +42,7 @@ hr {
 #presentation {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 700px;
   padding-bottom: 50px;
 }
 #competence {
@@ -48,13 +50,14 @@ hr {
   margin-right: 10%;
   color: aliceblue;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 700px;
 }
 #projet {
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 700px;
 }
 #contact {
   background-color: #025C6C;

@@ -1,3 +1,15 @@
+/* Css burger */
+/* Css carousel */
+/* Css loader */
+@keyframes loader {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+/* scroll reveal*/
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +21,10 @@ body {
 
 h2 {
   text-shadow: 0 0 5px black;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 200px;
+  font-size: 2.1em;
 }
 
 hr {
@@ -20,6 +36,7 @@ hr {
   padding: 30px;
   color: #0B1117;
   text-shadow: 0 0 10px #FFFFFF;
+  margin-bottom: 700px;
 }
 
 .pp_titre {
@@ -30,6 +47,7 @@ hr {
 #presentation {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 700px;
   padding-bottom: 50px;
 }
 
@@ -37,6 +55,8 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   color: aliceblue;
+  margin-top: 200px;
+  margin-bottom: 700px;
 }
 
 #projet {
@@ -44,6 +64,7 @@ hr {
   margin-right: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 700px;
 }
 
 #contact {
@@ -53,13 +74,6 @@ hr {
   padding-bottom: 30px;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 200px;
-  font-size: 2.1em;
-}
-
 h3 {
   text-align: center;
   margin-bottom: 50px;
@@ -67,7 +81,6 @@ h3 {
   font-size: 2.1em;
 }
 
-/* Css burger */
 .navigation {
   position: fixed;
   left: 0;
@@ -81,12 +94,6 @@ h3 {
   transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
 }
-
-.navigation.isOpen {
-  transform: translateX(0%);
-  -webkit-transform: translateX(0%);
-}
-
 .navigation .menu {
   list-style-type: none;
   position: absolute;
@@ -95,15 +102,18 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-
 .navigation ul li {
   margin: 30px 5px;
   font-size: 20px;
   letter-spacing: 0.07em;
 }
-
 .navigation a {
   color: aliceblue;
+}
+
+.navigation.isOpen {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
 }
 
 a:link {
@@ -117,14 +127,12 @@ a:link {
   z-index: 20;
   cursor: pointer;
 }
-
 .btn-nav .barre {
   width: 30px;
   height: 3px;
   background-color: #000000;
   margin-top: 3px;
 }
-
 .btn-nav .barre.white {
   background-color: aliceblue;
   transition: background-color 0.6s ease-in-out;
@@ -149,12 +157,10 @@ ul {
   margin-left: 10%;
   margin-right: 10%;
 }
-
 ul li {
   list-style-type: none;
 }
 
-/* Css carousel */
 #carouselExampleIndicators {
   left: 35%;
   width: 30%;
@@ -172,11 +178,6 @@ ul li {
   color: aliceblue;
   background-color: darkgray;
   border: 2px aliceblue solid;
-}
-
-#competence {
-  margin-top: 200px;
-  margin-bottom: 200px;
 }
 
 .logo_comp {
@@ -219,13 +220,11 @@ button {
   padding-left: 10%;
   padding-right: 10%;
 }
-
 #footer h4 {
   padding-top: 20px;
   padding-left: 150px;
 }
 
-/* Css loader */
 .loader_container {
   position: fixed;
   top: 0;
@@ -236,7 +235,6 @@ button {
   z-index: 999;
   transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
 }
-
 .loader_container h3 {
   position: fixed;
   right: 45%;
@@ -263,15 +261,6 @@ button {
   animation: loader 1s linear infinite;
 }
 
-@keyframes loader {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-/* scroll reveal*/
 .reveal {
   opacity: 0;
   transform: translateY(-30px);

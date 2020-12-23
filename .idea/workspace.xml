@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6047900f-388e-4152-a93f-e602975a6f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/assets/css/file_actualite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/assets/css/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/assets/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/assets/css/variable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/blog/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/blog/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/blog/publication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/blog/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/bdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/file_actualite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/navbarre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_blogV2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../biblotheque_code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../biblotheque_code/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../explorerv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../explorerv3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mdrsass/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mdrsass/index.php" afterDir="false" />
@@ -24,9 +49,7 @@
       <change beforePath="$PROJECT_DIR$/../projet_espace_membre/src/inscription.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../projet_espace_membre/views/footer.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../projet_espace_membre/views/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_php_ocr/.idea/Test_php_OCR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_php_ocr/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_php_ocr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp minichat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp minichat/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +59,37 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lpcIX7MpOR5SOj3Sx9Cwogg63h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +101,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608297394870</updated>
       <workItem from="1608297396486" duration="13000" />
+      <workItem from="1608297511701" duration="2557000" />
+      <workItem from="1608301953673" duration="148000" />
+      <workItem from="1608733508296" duration="796000" />
     </task>
     <servers />
   </component>
@@ -77,5 +120,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
