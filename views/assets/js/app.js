@@ -54,9 +54,3 @@ if (window.sidebar) {
     document.onclick = ftrue;
 }
 
-
-
-
-/* anticlick */
-
-document.oncontextmenu = new Function("return false");

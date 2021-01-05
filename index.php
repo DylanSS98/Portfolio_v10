@@ -5,15 +5,18 @@ require 'views/header.php';
 ?>
 
 
-<div id="titre">
 
+<div id="titre">
     <img class="pp_titre" src="img/pp_portfolio.png">
     <h1>Dylan Silva Sanches</h1>
     <h4>Passionné d'informatique, du numérique et des nouvelles technologies</h4>
+    <br>
+
 </div>
 
 
-</br>
+
+
 
 <div class="reveal">
     <div id="presentation">
@@ -37,7 +40,7 @@ require 'views/header.php';
             <div class="card" style="width: 18rem;">
                 <img src="img/psa_vesoul_mini.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <p class="card-text">Contrat intérimaire de deux ans sur le site PSA Vesoul via Synergie
+                    <p class="card-text">Contrat intérimaire de 18 mois sur le site PSA Vesoul via Synergie
                     <h6>
                         <hr>
                         Pour me familiariser au monde du travail (2017/2019)
@@ -120,7 +123,7 @@ require 'views/header.php';
             </div>
         </div>
 
-
+       <div class="card_comp">
         <ul>
             <li>
                 <div class="logo_comp">
@@ -145,7 +148,7 @@ require 'views/header.php';
 
             <li>
                 <div class="logo_comp">
-                    <img src="img/php.png" class="card-img-top" alt="...">
+                    <img src="img/php.png"  alt="...">
                 </div>
                 <p>PHP MYSQL</p>
             </li>
@@ -182,6 +185,7 @@ require 'views/header.php';
             </li>
 
         </ul>
+    </div>
     </div>
 </div>
 

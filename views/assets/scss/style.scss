@@ -1,6 +1,4 @@
-/* Css burger */
-/* Css carousel */
-/* Css loader */
+
 @keyframes loader {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -9,8 +7,8 @@
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-/* scroll reveal*/
-body {
+
+body{
   margin: 0;
   padding: 0;
   background-color: #5A5959;
@@ -33,11 +31,15 @@ hr {
   padding: 30px;
   color: #0B1117;
   text-shadow: 0 0 10px #FFFFFF;
-  margin-bottom: 700px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiInpW3-xAGcT3DcEMN_4T7Y-FlxvhTxTaQ&usqp=CAU") no-repeat;
+  background-size: cover;
 }
 .pp_titre {
   margin-bottom: 10px;
+  margin-left: 20px;
   box-shadow: 0 0 20px #111111;
+}
+.background_title{
 }
 #presentation {
   margin-left: 10%;
@@ -50,14 +52,12 @@ hr {
   margin-right: 10%;
   color: aliceblue;
   margin-top: 200px;
-  margin-bottom: 700px;
+  margin-bottom: 500px;
 }
 #projet {
-  margin-left: 10%;
-  margin-right: 10%;
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 700px;
+  padding-bottom: 300px;
+  background: #852526;
 }
 #contact {
   background-color: #025C6C;
@@ -71,6 +71,8 @@ h3 {
   margin-top: 20px;
   font-size: 2.1em;
 }
+
+/* Css burger */
 .navigation {
   position: fixed;
   left: 0;
@@ -129,6 +131,15 @@ a {
     -webkit-transition: background-color .6s ease-in-out;
   }
 }
+.footer_nav{
+  position: absolute;
+  bottom: 0;
+
+}
+
+
+
+
 .ligne_presentation {
   display: flex;
   justify-content: space-between;
@@ -148,6 +159,10 @@ ul {
     list-style-type: none;
   }
 }
+
+
+
+/* Css carousel */
 #carouselExampleIndicators {
   left: 35%;
   width: 30%;
@@ -207,6 +222,8 @@ button {
     padding-left: 150px;
   }
 }
+
+/* Css loader */
 .loader_container {
   position: fixed;
   top: 0;
@@ -240,6 +257,8 @@ button {
   border-radius: 50%;
   animation: loader 1s linear infinite;
 }
+
+/* scroll reveal*/
 .reveal {
   opacity: 0;
   transform: translateY(-30px);
@@ -247,5 +266,5 @@ button {
 .reveal-visible {
   opacity: 1;
   transform: translateY(0);
-  transition: 1.5s cubic-bezier(.17,.67,.72,.58);
+  transition: 1.0s cubic-bezier(.17,.67,.72,.58);
 }

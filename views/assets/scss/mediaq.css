@@ -1,6 +1,38 @@
+.ligne_presentation {
+    display: flex;
+    flex-direction: column;
+}
+.carousel{
+    display: none;
+}
+
+.card_comp{
+    margin-right: 10%;
+}
+.btn-nav, .navigation{
+    display: none;
+}
+
+.btn-primary{
+    width: 100%;
+}
+.card{
+    margin-top: 30px;
+}
+#titre{
+    margin-top: 30%;
+}
+
+
+
+
+/*body{
+margin-left: 30%;
+}
 .ligne_presentation{
     display: flex;
     flex-direction: column;
+   
 }
 .card{
     margin-top: 30px;
@@ -20,5 +52,12 @@ form{
 .carousel{
     width: 250%;
     position: relative;
-    right: 72%;
+    right: 67%;
+}
+#contact{
+    width: 100%;
+}
+h2{
+    position: relative;
+
 }

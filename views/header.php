@@ -34,14 +34,14 @@
 
     <body>
 
-    <!--<div class="loader_container">
+   <!-- <div class="loader_container">
         <div class="loader">
 
         </div>
 
 
         <h3>Bienvenue ...</h3>
-    </div>-->
+    </div> -->
 
     <div>
         <!-- Menu de navigation -->
@@ -78,6 +78,17 @@
                 </ul>
 
             </nav>
+
+
+            <div class="footer_nav">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/dylan-silva-sanches/" target="_blank"><img
+                                    src="https://img.icons8.com/nolan/64/linkedin.png"/></a></li>
+
+                    <li><a href="https://github.com/DylanSS98" target="_blank"><img
+                                    src="https://img.icons8.com/nolan/64/github.png"/></a></li>
+                </ul>
+            </div>
         </div>
 
 

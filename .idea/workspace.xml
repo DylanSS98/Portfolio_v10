@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6047900f-388e-4152-a93f-e602975a6f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/assets/scss/variable.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/.idea/watcherTasks.xml" afterDir="false" />
@@ -21,8 +22,10 @@
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/header.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/elements/navbarre.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projet_blogV2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assets/scss/mediaq.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/mediaq.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/scss/style.scss" afterDir="false" />
@@ -90,6 +93,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,7 +107,16 @@
       <workItem from="1608297396486" duration="13000" />
       <workItem from="1608297511701" duration="2557000" />
       <workItem from="1608301953673" duration="148000" />
-      <workItem from="1608733508296" duration="796000" />
+      <workItem from="1608733508296" duration="1387000" />
+      <workItem from="1609691173859" duration="24000" />
+      <workItem from="1609746124332" duration="417000" />
+      <workItem from="1609747051492" duration="77000" />
+      <workItem from="1609755002137" duration="2833000" />
+      <workItem from="1609762910599" duration="307000" />
+      <workItem from="1609763228604" duration="2336000" />
+      <workItem from="1609766459086" duration="4778000" />
+      <workItem from="1609833367971" duration="9542000" />
+      <workItem from="1609849679296" duration="1054000" />
     </task>
     <servers />
   </component>
