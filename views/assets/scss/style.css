@@ -15,11 +15,17 @@ body {
   font-size: 1.3em;
 }
 
+header {
+  display: flex;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiInpW3-xAGcT3DcEMN_4T7Y-FlxvhTxTaQ&usqp=CAU") no-repeat;
+  background-size: cover;
+}
+
 h2 {
   text-shadow: 0 0 5px black;
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   font-size: 2.1em;
 }
 
@@ -28,25 +34,32 @@ hr {
 }
 
 #titre {
-  text-align: center;
   padding: 30px;
-  color: #0B1117;
-  text-shadow: 0 0 10px #FFFFFF;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiInpW3-xAGcT3DcEMN_4T7Y-FlxvhTxTaQ&usqp=CAU") no-repeat;
-  background-size: cover;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 2.1em;
 }
 
 .pp_titre {
-  margin-bottom: 10px;
-  margin-left: 20px;
   box-shadow: 0 0 20px #111111;
 }
 
 #presentation {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.ligne_presentation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
   margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 700px;
-  padding-bottom: 50px;
+  background-color: #3A3B3C;
+  box-shadow: 0 0 10px #111111;
 }
 
 #competence {
@@ -54,11 +67,11 @@ hr {
   margin-right: 10%;
   color: aliceblue;
   margin-top: 200px;
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
 #projet {
-  padding-top: 30px;
+  padding-top: 300px;
   padding-bottom: 300px;
   background: #852526;
 }
@@ -66,8 +79,8 @@ hr {
 #contact {
   background-color: #025C6C;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 h3 {
@@ -75,6 +88,20 @@ h3 {
   margin-bottom: 50px;
   margin-top: 20px;
   font-size: 2.1em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ul li {
+  list-style-type: none;
+}
+
+label {
+  margin-top: 30px;
 }
 
 /* Css burger */
@@ -139,28 +166,6 @@ a:link {
 .footer_nav {
   position: absolute;
   bottom: 0;
-}
-
-.ligne_presentation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
-  margin-right: 250px;
-  margin-left: 250px;
-  background-color: #3A3B3C;
-  box-shadow: 0 0 10px #111111;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-ul li {
-  list-style-type: none;
 }
 
 /* Css carousel */
@@ -235,7 +240,8 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #5A5959;
+  background: no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiInpW3-xAGcT3DcEMN_4T7Y-FlxvhTxTaQ&usqp=CAU");
+  background-size: cover;
   z-index: 999;
   transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
 }

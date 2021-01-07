@@ -34,14 +34,14 @@
 
     <body>
 
-   <!-- <div class="loader_container">
+   <div class="loader_container">
         <div class="loader">
 
         </div>
 
 
         <h3>Bienvenue ...</h3>
-    </div> -->
+    </div>
 
     <div>
         <!-- Menu de navigation -->
@@ -67,7 +67,9 @@
 
                     </li>
 
-
+                    <li>
+                        <a href="#projet">Projet</a>
+                    </li>
 
                     <li>
 

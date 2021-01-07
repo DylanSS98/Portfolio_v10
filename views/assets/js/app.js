@@ -12,7 +12,7 @@ $(document).ready(function (){
 function showContent(){
     document.querySelector('.loader_container').classList.add('hidden');
 }
-setTimeout(showContent, 3000);
+setTimeout(showContent, 2000);
 
 
 /* js scroll visible */

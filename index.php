@@ -5,80 +5,82 @@ require 'views/header.php';
 ?>
 
 
-
+<header>
 <div id="titre">
     <img class="pp_titre" src="img/pp_portfolio.png">
     <h1>Dylan Silva Sanches</h1>
     <h4>Passionné d'informatique, du numérique et des nouvelles technologies</h4>
     <br>
-
 </div>
+    <div class="reveal">
+        <div id="presentation">
+
+            </br>
+            <div class="ligne_presentation">
+
+                <div class="card" style="width: 20rem;">
+                    <img src="img/lycée_lux.jfif" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Lycée professionnel Luxembourg Vesoul
+                        <h6>
+                            <hr>
+                            Obtention du Bac Pro SEN en 2016
+                        </h6>
+                        <p>
+                    </div>
+                </div>
 
 
-
-
-
-<div class="reveal">
-    <div id="presentation">
-        <h2><em>Parcours professionnel </em></h2>
-        </br>
-        <div class="ligne_presentation">
-
-            <div class="card" style="width: 18rem;">
-                <img src="img/lycée_lux.jfif" class="card-img-top" alt="">
-                <div class="card-body">
-                    <p class="card-text">Lycée professionnel Luxembourg Vesoul
-                    <h6>
-                        <hr>
-                        Obtention du Bac Pro SEN en 2016
-                    </h6>
-                    <p>
+                <div class="card" style="width: 20rem;">
+                    <img src="img/psa_vesoul_mini.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Contrat intérimaire de 18 mois sur le site PSA Vesoul via Synergie
+                        <h6>
+                            <hr>
+                            Pour me familiariser au monde du travail (2017/2019)
+                        </h6>
+                        <p>
+                    </div>
                 </div>
             </div>
+            <hr>
+            <div class="ligne_presentation">
+                <div class="card" style="width: 20rem;">
+                    <img src="img/toutunpclogo.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Création de ma micro-entreprise <strong>TOUT UN PC</strong>
+                        <h6>
+                            <hr>
+                            Il s'agit de mon activité secondaire de réparation et assemblage d'ordinateur créé en janvier
+                            2020
+                        </h6>
+                        <p>
+                    </div>
+                </div>
 
 
-            <div class="card" style="width: 18rem;">
-                <img src="img/psa_vesoul_mini.jpg" class="card-img-top" alt="">
-                <div class="card-body">
-                    <p class="card-text">Contrat intérimaire de 18 mois sur le site PSA Vesoul via Synergie
-                    <h6>
-                        <hr>
-                        Pour me familiariser au monde du travail (2017/2019)
-                    </h6>
-                    <p>
+                <div class="card" style="width: 20rem;">
+                    <img src="img/onlineformapro.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Entrer en formation chez Onlineformapro afin de devenir Developpeur web
+                        <h6>
+                            <hr>
+                            Période de formation d'octobre 2020 à mai 2021
+                        </h6>
+                        <p>
+                    </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="ligne_presentation">
-            <div class="card" style="width: 18rem;">
-                <img src="img/toutunpclogo.png" class="card-img-top" alt="">
-                <div class="card-body">
-                    <p class="card-text">Création de ma micro-entreprise <strong>TOUT UN PC</strong>
-                    <h6>
-                        <hr>
-                        Il s'agit de mon activité secondaire de réparation et assemblage d'ordinateur créé en janvier
-                        2020
-                    </h6>
-                    <p>
-                </div>
-            </div>
 
 
-            <div class="card" style="width: 18rem;">
-                <img src="img/onlineformapro.jpg" class="card-img-top" alt="">
-                <div class="card-body">
-                    <p class="card-text">Entrer en formation chez Onlineformapro afin de devenir Developpeur web
-                    <h6>
-                        <hr>
-                        Période de formation d'octobre 2020 à mai 2021
-                    </h6>
-                    <p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+</header>
+
+
+
+
+
 
 <div class="reveal">
     <div id="competence">
@@ -193,7 +195,29 @@ require 'views/header.php';
 <div class="reveal">
     <div id="projet">
         <h2><em>Projet</em></h2>
-        <p style="text-align: center">Partie du site en construction...</p>
+        <br>
+        <ul>
+            <li>
+                <div>
+                <img src="img/blog_telephone.png" alt="">
+                <p>Blog sur les derniers smartphones</p>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <img src="img/projet-en-cours.png" alt="">
+                    <p></p>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <img src="img/projet-en-cours.png" alt="">
+                    <p></p>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 
@@ -204,7 +228,7 @@ require 'views/header.php';
         <form action="views/mail.php" method="post">
 
             <label>Nom, Prénom, Raison social </label>
-            <input type="text" name="identité">
+            <input type="text" name="identite">
 
             <label>Votre Email</label>
             <input type="email" name="email">
@@ -225,13 +249,13 @@ require 'views/header.php';
     <h4>Ou bien me retrouver sur </h4>
     <ul class="reseaux_sociaux">
         <li>
-            <p><a href="https://www.linkedin.com/in/dylan-silva-sanches/" target="_blank"><img
-                            src="https://img.icons8.com/nolan/64/linkedin.png"/></a>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/dylan-silva-sanches/" target="_blank"><p><img
+                            src="https://img.icons8.com/nolan/64/linkedin.png"/>LinkedIn</p></a>
         </li>
 
         <li>
-            <p><a href="https://github.com/DylanSS98" target="_blank"><img
-                            src="https://img.icons8.com/nolan/64/github.png"/></a>GitHub</p>
+            <a href="https://github.com/DylanSS98" target="_blank"><p><img
+                            src="https://img.icons8.com/nolan/64/github.png"/>GitHub</p></a>
         </li>
     </ul>
 
