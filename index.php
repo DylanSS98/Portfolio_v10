@@ -1,7 +1,6 @@
 <?php
 
 require 'views/header.php';
-
 ?>
 
 
@@ -22,10 +21,10 @@ require 'views/header.php';
                     <img src="img/lycée_lux.jfif" class="card-img-top" alt="">
                     <div class="card-body">
                         <p class="card-text">Lycée professionnel Luxembourg Vesoul
-                        <h6>
-                            <hr>
-                            Obtention du Bac Pro SEN en 2016
-                        </h6>
+                            <h6>
+                                <hr>
+                                Obtention du Bac Pro SEN en 2016
+                            </h6>
                         <p>
                     </div>
                 </div>
@@ -198,9 +197,10 @@ require 'views/header.php';
         <br>
         <ul>
             <li>
-                <div>
+                <div class="img_projet">
                 <img src="img/blog_telephone.png" alt="">
                 <p>Blog sur les derniers smartphones</p>
+                    <p>(non hebergé)</p>
                 </div>
             </li>
 
@@ -234,9 +234,7 @@ require 'views/header.php';
             <input type="email" name="email">
 
             <label>Votre message</label>
-            <textarea name="story"
-                      rows="10" cols="33">
-                </textarea>
+            <textarea name="story" rows="10" cols="33"></textarea>
 
             <button type="submit" class="btn btn-primary">Envoyer</button>
 

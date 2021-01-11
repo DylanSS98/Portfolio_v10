@@ -1,54 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/scss/envoie_mail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title>Redirection</title>
+</head>
+<body>
+
+
+
 <?php
 
-$nom = $_POST['identite'];
-$email = $_POST['email'];
-$message = $_POST['story'];
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
-require '../vendor/phpmailer/phpmailer/src/Exception.php';
-require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require '../vendor/phpmailer/phpmailer/src/SMTP.php';
-
-// Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
-
-try {
-
-    //Server settings
-    //$mail->SMTPDebug = 2;                      // Enable verbose debug output
-    $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'auth.smtp.1and1.fr';                    // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;          // Enable SMTP authentication
-    $mail->Username   = 'contact.pro@tout-un-pc.fr';                     // SMTP username
-    $mail->Password   = 'Paolosilvachance@70';                         // SMTP password
-    $mail->SMTPSecure = 'ssl';                               // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-
-    //Recipients
-    $mail->setFrom($email);
-    $mail->addAddress('contact.pro@tout-un-pc.fr');     // Add a recipient
-    //$mail->addAddress('ellen@example.com');               // Name is optional
-    //$mail->addReplyTo('info@example.com', 'Information');
-    //$mail->addCC('cc@example.com');
-    //$mail->addBCC('bcc@example.com');
-
-    // Attachments
-    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
-    // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = $nom;
-    $mail->Body    = $message;
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-    $mail->send();
-    echo 'Message envoyer avec succés';
-    header ("Refresh: 3;URL=../index.php");
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+//sécurisation des caractéres transmis
+if(empty($_POST['email']) ||
+    empty($_POST['identite']) ||
+    empty($_POST['story']) ||
+    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+{
+    echo "No arguments Provided";
+    return false;
 }
+
+$nom = strip_tags(htmlspecialchars($_POST['identite']));
+$email = strip_tags(htmlspecialchars($_POST['email']));
+$message = strip_tags(htmlspecialchars($_POST['story']));
+
+
+//parametre de l'envoie de message
+
+$to = 'dylan.silva.sanches@outlook.fr';
+$email_subject = "Portfolio, message de $nom";
+$email_body = "Vous avez reçus un mail depuis le formulaire de contact de votre site. \n\n"."Voici les détails: \n\nName: $nom\n\nEmail: $email\n\nMessage:\n$message";
+$headers = "From: dylan.silva.sanches@outlook.fr\n";
+$headers .="Reply-to: $email";
+mail($to, $email_subject, $email_body, $headers);
+echo '<div class="msg_mail"><p>Message envoyé ! En cours de redirection ...</p></div>
+<div class="loader">
+
+        </div>';
+header("Refresh: 3; url=../index.php");
+return true;
+
 
 
 ?>
+</body>
+</html>

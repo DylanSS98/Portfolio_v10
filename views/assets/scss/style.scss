@@ -41,7 +41,7 @@ hr {
 
 }
 .pp_titre {
-
+  margin-bottom: 10px;
   box-shadow: 0 0 20px #111111;
 }
 .background_title{
@@ -97,7 +97,13 @@ ul {
 label{
   margin-top: 30px;
 }
-
+.img_projet{
+  transform: scale(1);
+  transition: transform 0.4s;
+    &:hover{
+      transform: scale(1.15);
+    }
+}
 /* Css burger */
 .navigation {
   position: fixed;

@@ -29,19 +29,19 @@
 
 
 
-    <title>Portofilio Dylan Silva Sanches</title>
+    <title>Dylan Silva Sanches</title>
 </head>
 
     <body>
 
-   <div class="loader_container">
+   <!--<div class="loader_container">
         <div class="loader">
 
         </div>
 
 
         <h3>Bienvenue ...</h3>
-    </div>
+    </div>-->
 
     <div>
         <!-- Menu de navigation -->
